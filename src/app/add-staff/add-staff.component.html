@@ -1,0 +1,39 @@
+<body>
+<div class="topnav">
+    <h2>HDB Staff</h2>
+    <a class="active" href="#">Home</a>
+    <a class="login" href="#">Login</a>
+    <a routerLink="reg" >Staff Register</a>  
+    </div>
+
+<div id="container">
+    <form id="reg-form">
+    <h2>ADD STAFF</h2>
+      <b>Staff Name:</b>
+      <input type="text" id="name" name="name" placeholder="Enter Full Name" required><br><br>
+      <b>Staff ID:</b>
+      <input type="text" id="id" name="email" placeholder="Enter Id" required><br><br>
+      <b>Password:</b>
+      <input type="password" id="password" name="password" placeholder="Enter Password" required><br><br>
+      <b>ReEnter:</b>
+      <input type="password" id="password" name="password" placeholder="ReEnter Password" required><br><br>
+      
+      <b>Category of the sales Item:</b>
+      <select name="items" id="options">
+      <option value="Item1">Item1</option>
+      <option value="Item2">Item2</option>
+      <option value="Item3">Item3</option>
+      <option value="Item4">Item4</option>
+      </select>
+      <br><br>
+      <b>Date of post creation:</b>
+      <input type="text" id="address" name="address" placeholder="Enter Date" required><br><br>
+      <b>Date of closing:</b>
+      <input type="text" id="address" name="address" placeholder="Enter Date" required><br><br>
+
+      <button id="reg" (click)="insertData()">ADD</button>
+      
+    </form>
+ </div>
+
+</body>

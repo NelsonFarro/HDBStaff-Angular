@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DashBoard Page</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+  
+    <div class="container">
+    <div class="navigation">
+        <div><a href=""><i class="fa-solid fa-desktop"></i><span>Dashboard</span> </a></div>
+        <div><button class="btn" (click)="goToAddStaff()"><i class="fa fa-cogs"></i><span >Add Staff</span></button><!--<i class="fas fa-caret-down"></i> <a href=""></a>-->
+        </div>
+        <div><a href=""><i class="fa fa-comment"></i><span>Message</span> </a></div>
+        <div><a href=""><i class="fa-solid fa-right-from-bracket"></i><span>Sign Out</span></a></div>
+      </div>
+      </div>
+      
+      <div class="main">
+        <div class="topbar">
+          <div class="foms-title">
+          <h1><span>HDBStaff</span></h1><br>
+        </div>
+        <input type="checkbox" id="check">
+          <label for="check">
+            <i id="sidebar-btn" class="fa-solid fa-bars"></i>
+            <!--<i id="cancel" class="fas fa-times"></i>-->
+          </label>
+          <div class="user">
+            <span class="admin_name"></span>
+            <i class="fa-solid fa-user"></i>
+          </div>
+          <div class="logout">
+            <a href=""><i class="fa-solid fa-right-from-bracket"></i><span>Sign Out</span> </a> 
+          </div>
+      </div>
+    </div>
+    
+    </body>
+    </html> 

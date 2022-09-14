@@ -1,0 +1,43 @@
+<body>
+
+    <div class="topnav">
+        <h5>HDB Staff</h5>
+        <a class="active" routerLink="">Home</a>
+        <button class="btn" (click)="goToReg()">Register</button>
+<!--            <a class="btn" routerLink="reg">Register</a>-->
+        
+    </div>
+
+    <!--<nav>
+        <label class="logo">HDB: HDB STAFF</label>
+        <ul>
+            <li><a class="active" href="#">Signup</a></li>
+            <li><a href="#">Register</a></li>
+        </ul>
+    </nav>-->
+    <div class="center">
+        <h1>Login Page Admin</h1>
+        <form method="get">
+            <div class="text_field">
+                <label>Username</label>
+                <input type="text">
+                <span></span>
+
+            </div><br>
+            <div class="text_field">
+                <label>Password</label>
+                <input type="password">
+                <span></span>
+
+            </div>
+            <br>
+            <div class="pass">Forgot Password?</div>
+            <!--<input type="submit" routerLink="admindash" value="Login">-->
+            <button class="btnn" (click)="goToAdmin()">Login</button>
+            <div class="signup_link">
+                Not a member? <a routerLink="reg">Signup</a>
+            </div>
+        </form>
+    </div>
+</body>
+
