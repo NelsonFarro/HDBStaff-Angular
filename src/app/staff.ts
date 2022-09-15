@@ -4,10 +4,10 @@ export class Staff
     staffName: string;
     password: string;
     category:string;
-    dateOfPost:Date;
-    dateOfClosing:Date;
+    dateOfPost:string;
+    dateOfClosing:string;
     
-    constructor(a:number, b:string, c:string, d:string, e:Date, f:Date)
+    constructor(a:number, b:string, c:string, d:string, e:string, f:string)
     {
         this.staffId=a;
         this.staffName=b;
